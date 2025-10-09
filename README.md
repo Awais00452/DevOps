@@ -1,42 +1,40 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# LIBRARY
-library with .cs files of all things needed . 
-=======
->>>>>>> local-commits
-# Library Management System
+# DevOps
 
 Name: Rana Muhammad Awais  
 Student ID: 40742404  
 Module Code: EN8107
 
 ## Overview
+This repository contains DevOps coursework and project materials related to continuous integration, continuous deployment, containerization, and infrastructure automation.
 
-This is a C# library management system. It lets you add, search, borrow, and return books. Data is loaded from and saved to text files. The code is object-oriented and uses generics for flexibility. Advanced features like search filters and statistics are included.
+## Technologies Used
+- Docker
+- Git & GitHub
+- CI/CD pipelines
+- Infrastructure as Code (IaC)
+- Automated testing and deployment
 
-## How to Run
+## Getting Started
 
-1. Open the folder in Visual Studio or VS Code.
-2. Make sure you have .NET 7.0 or later installed.
-3. Run `dotnet run` in the project folder.
+### Prerequisites
+- Docker Desktop
+- Git
+- Basic understanding of DevOps principles
 
-## Features
-- Add, remove, search, and display books
-- Add, remove, and display users
-- Borrow and return items
-- File I/O for inventory and users
-- Search filters (by author, type, availability)
-- Statistics (most borrowed, borrowed per user)
-- User roles (admin, member)
+### Running the Project
+1. Clone the repository
+2. Follow the specific instructions in each project directory
+3. Ensure Docker is running for containerized applications
 
-## Testing
-- Scenario testing is in Program.cs
-- Unit tests are in LibraryBackend.Tests
+## Project Structure
+The repository is organized by topics covered in the module:
+- Continuous Integration/Continuous Deployment (CI/CD)
+- Containerization with Docker
+- Infrastructure automation
+- Monitoring and logging
 
-## Note
-GUI is not included because WinForms is not supported on macOS.
-<<<<<<< HEAD
-=======
->>>>>>> 890ac4f (Initial commit)
->>>>>>> local-commits
+## Contributing
+This is an academic project. Contributions and suggestions are welcome for learning purposes.
+
+## License
+This project is for educational purposes as part of coursework at the University.
